@@ -1,0 +1,34 @@
+button {
+    border-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border-top: 2px;
+}
+.github {
+    color: white;
+    background-color: black;
+    transition: color .15s, background-color .15s;
+}
+.github:hover {
+    color: black;
+    background-color: white;
+}
+.codewars {
+    color: white;
+    background-color: rgb(216, 65, 55);
+    transition: color .15s, background-color .15s;
+}
+.codewars:hover {
+    color: rgb(216, 65, 55);
+    background-color: white;
+}
+.linkedin {
+    color: white;
+    background-color: rgb(47, 47, 196);
+    transition: color .15s, background-color .15s;
+}
+.linkedin:hover {
+    color: rgb(47, 47, 196);
+    background-color: white;
+}
