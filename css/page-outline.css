@@ -1,0 +1,132 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 13px;
+    position: relative;
+    background-image: url("https://as1.ftcdn.net/jpg/01/97/69/72/1000_F_197697209_Y4nv81X9kOLJ2x0s1iApWG39hFUGRN8p.jpg");
+    margin: .05px auto;
+    padding: 0px 13px;
+}
+
+a {
+  color: black;
+}
+
+p {
+  background-color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 944px;
+  max-width: 800px;
+  align-content: start;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHU_wA9G71xliKoati_5f71Db9UwsmiNPbSg&s");
+}
+
+.upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  max-width: 750px;
+  height: 220px;
+}
+
+.pfp{
+  height: 140px;
+  width: 140px;
+  margin-left: 10px;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: black;
+  background-color: rgb(255, 255, 227);
+}
+
+.banner {
+  width: 800px;
+  height: 150px;
+  text-align: right;
+  background-color: rgb(255, 252, 246);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  margin-top: 75px;
+  font-size: large;
+}
+
+.index {
+  font-size: large;
+  min-width: 115px;
+  min-height: 200px;
+  max-height: 300px;
+  margin: 5px;
+  padding: 1px 0 5px 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: .5em;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 252, 246);
+}
+
+.side-banners {
+  font-size: large;
+  min-width: 115px;
+  height: 500px;
+  margin: 5px;
+  padding: 1px 0 5px 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: .5em;
+  border-color: rgb(0, 0, 0);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv_gfW_8XuyUS9-Y3f-x8otp9Ar6FpqFIHLg&s");
+}
+
+.main-content {
+  padding: 5px .5em .5em .5em;
+}
+
+.posts {
+  text-indent: 20px;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px .5em .5em .5em;
+  min-width: 300px;
+  margin-bottom: 10px;
+  text-align: left;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: .5em;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 252, 246);
+}
+
+.post-header {
+  text-indent: 0;
+  font-size: larger;
+}
+
+@media screen and (max-width: 744px) {
+  .l-side-content {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .r-side-content {
+    display: none;
+  }
+}
